@@ -1,0 +1,37 @@
+:root {
+    /*Primarios*/
+    --Pink: hsl(322, 100%, 66%);
+    /*Neutrales*/
+    --Blanco: hsl(193, 100%, 96%);
+    --Negro: hsl(192, 100%, 9%);
+    --Gris: hsl(208, 11%, 55%);
+}
+/*
+## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 18px;
+    /*
+    Fonts - Headings
+    font-family: 'Poppins', sans-serif;
+    Fonts - Body/CalltoActions
+    font-family: 'Open Sans', sans-serif;
+    Icons -
+    [Font Awesome](https://fontawesome.com/)
+    */
+}
+
+/* ---- Header ---- */
+
+/* ---- Main ---- */
+
+/* ---- Footer ---- */
+
+
