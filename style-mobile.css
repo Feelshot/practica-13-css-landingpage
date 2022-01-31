@@ -331,7 +331,6 @@ footer {
         margin-left: 110px;
     }
 /*    ---- Tarjeta Call To action ---- */
-
     .call-to-action_container {
         top: -140px;
         width: 700px;
@@ -400,12 +399,14 @@ footer {
     .elements-right-bottom {
         display: flex;
         flex-direction: column;
-        align-content: space-between;
-        height: 220px;
-        margin: 10px 60px 0 0;
+        height: 240px;
+        margin: 100px 60px 0 0;
     }
     .redes {
-        margin: 0px 0 100px 0;
+        margin: 0px 0 140px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
     }
     .redes i {
         margin-left: 10px;
@@ -414,10 +415,4 @@ footer {
         font-size: 12px;
         height: 60px;
     }
-
-
-
-
-
-
 }
