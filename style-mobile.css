@@ -169,10 +169,56 @@ footer {
     padding-top: 160px;
     flex-direction: initial;
 }
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0 10px 20px 18px;
+}
 .logo-bottom {
-    width: 100%;
+    width: 160px;
+    height: auto;
+}
+.logo-datos {
+    margin-top: 30px;
+}
+.logo-datos p {
+    margin: 0 0 0px 15px;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.logo-datos_direccion, .logo-datos_telefono, .logo-datos_email {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    margin-bottom: 30px;
 }
 .logo-datos div img {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
+}
+.links {
+    text-align: left;
+    margin-left: 15px;
+}
+.links ul li {
+    list-style: none;
+    margin-bottom: 18px;
+}
+.links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.redes {
+    margin: 80px 0 20px 0;
+}
+.redes i {
+    color: #fff;
+    margin-left: 20px;
+}
+.copy {
+    color: #fff;
+    font-size: 12px;
+    height: 60px;
 }
