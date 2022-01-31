@@ -32,7 +32,6 @@ h1, h2, h3 {
 p, a, button {
     font-family: 'Open Sans', sans-serif;
 }
-
 /* ---- Header ---- */
 header {
     display: flex;
@@ -61,7 +60,6 @@ main {
 /*    ---- Cabecera ---- */
 .cabecera {
     margin: 80px 20px 0 20px;
-
 }
 .cabecera-texto p {
     font-size: 18px;
@@ -93,7 +91,6 @@ main {
     padding-top: 40px;
     height: 2500px;
 }
-
 .tarjetas-info {
     width: 335px;
     height: auto;
@@ -129,8 +126,7 @@ main {
     margin: 0 auto 0 auto;
     font-size: 15px;
 }
-/*    ---- Tarjeta Call To action ---- */
-
+/* ---- Tarjeta Call To action ---- */
 .call-to-action_container {
     position: absolute;
     top: -60px;
@@ -246,7 +242,7 @@ footer {
     }
     /* ---- Main ---- */
     main {
-       /* height: 2500px;*/
+        height: 2190px;
     }
     /*    ---- Cabecera ---- */
     .cabecera {
@@ -283,52 +279,143 @@ footer {
         width: 85%;
     }
 /*     ---- Tarjetas ---- */
-.tarjetas {
-    background-color: #FFF;
-    padding-top: 60px;
-    height: 1600px;
-}
-.tarjetas-info {
-    width: 970px;
-    display: flex;
-    justify-content: space-between;
-}
-.tarjetas-info img {
-    width: 40%;
-    height: auto;
-    margin-bottom: 40px;
-}
-.tarjetas-info h2 {
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-.tarjetas-uno {
-    flex-direction: row-reverse;
-}
-.tarjetas-uno p {
-    width: 300px;
-}
-.tarjetas-dos {
-    flex-direction: row;
-}
-.tarjetas-dos p {
-    width: 270px;
-}
-.tarjetas-tres {
-    flex-direction: row-reverse;
-}
-.tarjetas-tres p {
-    width: 260px;
-   
-}
-.tarjetas-tres {
-    margin-bottom: 0;
-}
-.tarjetas-info p {
-    color: var(--Gris-azulado);
-    margin: 0 auto 0 auto;
-    font-size: 15px;
-}
+    .tarjetas {
+        background-color: #FFF;
+        padding-top: 60px;
+        height: 1600px;
+    }
+    .tarjetas-info {
+        width: 1100px;
+        display: flex;
+    }
+    .tarjetas-textos-int {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tarjetas-textos-int p, .tarjetas-textos-int h2 {
+        text-align: left;
+        width: 430px;
+    }
+    .tarjetas-info img {
+        width: 60%;
+        height: auto;
+    }
+    .tarjetas-info h2 {
+        font-size: 24px;
+    }
+    .tarjetas-info p {
+        color: var(--Gris-azulado);
+        font-size: 16px;
+    }
+    .tarjetas-uno {
+        flex-direction: row-reverse;
+    }
+    .tarjetas-uno .tarjetas-textos-int {
+        margin: 0 0 0 110px;
+    }
+    .tarjetas-dos {
+        flex-direction: row;
+    }
+    .tarjetas-dos .tarjetas-textos-int p {
+        width: 442px;
+    }
+    .tarjetas-dos p, .tarjetas-dos h2 {
+        margin-right: 34px;
+    }
+    .tarjetas-tres {
+        flex-direction: row-reverse;
+    }
+    .tarjetas-tres .tarjetas-textos-int {
+        margin-left: 110px;
+    }
+/*    ---- Tarjeta Call To action ---- */
+
+    .call-to-action_container {
+        top: -140px;
+        width: 700px;
+        height: 240px;
+    }
+    .call-to-action_container h3 {
+        font-size: 28px;
+        margin: 60px auto 20px auto;
+    }
+    .call-to-action_container button {
+        width: 330px;
+        height: 65px;
+        border-radius: 40px;
+        border: none;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    /* ---- Footer ---- */
+    footer {
+        position: relative;
+    }
+    .container-gral {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        justify-content: left;
+        margin: 0 10px 20px 100px;
+    }
+    .logo-bottom {
+        width: 220px;
+        height: auto;
+    }
+    .logo-datos {
+        margin-top: 30px;
+    }
+    .logo-datos_direccion, .logo-datos_telefono, .logo-datos_email {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+    }
+    .logo-datos div img {
+        width: 18px;
+        height: 18px;
+    }
+    .links {
+        text-align: left;
+        display: flex;
+        width: 300px;
+        margin: 0;
+        margin-top: -20px;
+    }
+    .links ul {
+        width: 300px;
+        display: grid;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 50px;
+    }
+    .links ul li {
+        width: 150px;
+        height: 30px;
+    }
+    .elements-right-bottom {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        height: 220px;
+        margin: 10px 60px 0 0;
+    }
+    .redes {
+        margin: 0px 0 100px 0;
+    }
+    .redes i {
+        margin-left: 10px;
+    }
+    .copy {
+        font-size: 12px;
+        height: 60px;
+    }
+
+
 
 
 
